@@ -6,4 +6,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "AndroidStarter"
-include ':app'
+include ':base'
+include ':core'

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidStarter</string>
+    <string name="title_core">Core Module</string>
 </resources>
