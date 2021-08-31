@@ -1,4 +1,4 @@
-package com.paul.wang.androidstarter.activity.main
+package com.paul.wang.androidstarter.activity
 
 import android.os.Bundle
 import androidx.activity.viewModels

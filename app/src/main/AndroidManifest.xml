@@ -15,7 +15,7 @@
         android:theme="@style/Theme.AndroidStarter"
         >
         <activity
-            android:name=".activity.main.MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="true"
             >
             <intent-filter>
