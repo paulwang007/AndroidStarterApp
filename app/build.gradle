@@ -24,3 +24,8 @@ android {
 
     dynamicFeatures = [':dynamicfeature']
 }
+
+
+dependencies {
+    implementation project(":core-logic")
+}

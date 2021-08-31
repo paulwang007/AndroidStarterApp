@@ -5,6 +5,7 @@
     >
 
     <application
+        android:name=".MainApplication"
         android:allowBackup="true"
         android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,7 +15,7 @@
         android:theme="@style/Theme.AndroidStarter"
         >
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.main.MainActivity"
             android:exported="true"
             >
             <intent-filter>
@@ -32,8 +33,9 @@
             >
             <!-- This entry makes ExampleLoggerInitializer discoverable. -->
             <meta-data
-                android:name=""
+                android:name="com.paul.wang.androidstarter.LoggingInitializer"
                 android:value="androidx.startup"
+                tools:node="merge"
                 />
         </provider>
     </application>
