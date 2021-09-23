@@ -5,5 +5,4 @@ plugins {
 apply from: '../common-build.gradle'
 
 dependencies {
-    implementation project(":core-network")
 }

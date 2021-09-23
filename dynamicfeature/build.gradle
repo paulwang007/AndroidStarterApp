@@ -4,11 +4,6 @@ plugins {
 
 apply from: '../common-build.gradle'
 
-android {
-    defaultConfig {
-        applicationId "com.paul.wang.dynamicfeature"
-    }
-}
 
 dependencies {
     implementation project(":app")
