@@ -5,6 +5,8 @@ plugins {
 apply from:'../common-build.gradle'
 
 android {
+
+    namespace 'com.paul.wang.core_logic'
 }
 
 dependencies {
