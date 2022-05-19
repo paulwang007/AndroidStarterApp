@@ -22,8 +22,7 @@ android {
         }
     }
 
-    dynamicFeatures = [':dynamicfeature']
-    namespace 'com.paul.wang.androidstarter'
+    namespace 'com.paul.wang.view'
 }
 
 

@@ -6,7 +6,6 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "AndroidStarter"
-include ':app'
-include ':dynamicfeature'
+include ':view'
 include ':model'
 include ':viewmodel'

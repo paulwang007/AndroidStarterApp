@@ -1,12 +1,12 @@
-package com.paul.wang.androidstarter.activity
+package com.paul.wang.view.activity
 
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.paul.wang.androidstarter.R
-import com.paul.wang.androidstarter.databinding.ActivityMainBinding
 import com.paul.wang.core_logic.MainViewModel
+import com.paul.wang.view.R
+import com.paul.wang.view.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

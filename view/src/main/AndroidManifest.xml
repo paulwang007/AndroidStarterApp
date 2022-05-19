@@ -35,7 +35,7 @@
             >
             <!-- This entry makes ExampleLoggerInitializer discoverable. -->
             <meta-data
-                android:name="com.paul.wang.androidstarter.LoggingInitializer"
+                android:name="com.paul.wang.view.LoggingInitializer"
                 android:value="androidx.startup"
                 tools:node="merge"
                 />
