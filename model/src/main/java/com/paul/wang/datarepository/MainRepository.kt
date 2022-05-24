@@ -1,3 +1,5 @@
 package com.paul.wang.datarepository
 
-class MainRepository(val data: String = "Foo")
+import javax.inject.Inject
+
+class MainRepository @Inject constructor()
