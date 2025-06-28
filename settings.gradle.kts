@@ -12,11 +12,12 @@ pluginManagement {
      */
 
     repositories {
-        gradlePluginPortal()
         google()
+        gradlePluginPortal()
         mavenCentral()
     }
 }
+
 dependencyResolutionManagement {
 
     /**
@@ -32,11 +33,13 @@ dependencyResolutionManagement {
 
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        gradlePluginPortal()
         google()
         mavenCentral()
     }
 }
+
 rootProject.name = "AndroidStarter"
-include ':view'
-include ':model'
-include ':viewmodel'
+include(":view")
+include(":model")
+include(":viewmodel")

@@ -2,7 +2,7 @@ plugins {
     id 'com.android.dynamic-feature'
 }
 
-apply from: '../common-build.gradle'
+apply from: '../common-build.gradle.kts'
 
 android {
     namespace 'com.paul.wang.dynamicfeature'
