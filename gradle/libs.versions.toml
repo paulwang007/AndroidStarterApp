@@ -5,6 +5,8 @@ androidCompileSDK = "36"
 androidMinSDK = "29"
 appcompat = "1.7.1"
 collectionKtx = "1.5.0"
+constraintlayout = "2.2.1"
+constraintlayoutCompose = "1.1.1"
 coreKtx = "1.16.0"
 datastoreRxjava3 = "1.1.7"
 fragmentKtx = "1.8.8"
@@ -35,6 +37,8 @@ workMultiprocess = "2.10.2"
 adapter-rxjava3 = { module = "com.squareup.retrofit2:adapter-rxjava3", version.ref = "adapterRxjava3" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 androidx-collection-ktx = { module = "androidx.collection:collection-ktx", version.ref = "collectionKtx" }
+androidx-constraintlayout-compose = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "constraintlayoutCompose" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-datastore = { module = "androidx.datastore:datastore", version.ref = "datastoreRxjava3" }
 androidx-datastore-rxjava3 = { module = "androidx.datastore:datastore-rxjava3", version.ref = "datastoreRxjava3" }
