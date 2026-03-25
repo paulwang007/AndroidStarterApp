@@ -12,3 +12,16 @@ plugins {
     alias(libs.plugins.hilt.devtools.ksp) apply false
     alias(libs.plugins.kotlin.android) apply false
 }
+
+// Centralized Java toolchain version platform for all submodules.
+val javaVersion = libs.versions.javaVersion.get().toInt()
+
+subprojects {
+    plugins.withType<JavaPlugin> {
+        extensions.configure<JavaPluginExtension> {
+            toolchain {
+                languageVersion.set(JavaLanguageVersion.of(javaVersion))
+            }
+        }
+    }
+}

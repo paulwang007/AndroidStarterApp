@@ -2,7 +2,6 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.hilt.android)
     alias(libs.plugins.hilt.devtools.ksp)
-    alias(libs.plugins.kotlin.android)
 }
 
 android {
@@ -22,12 +21,6 @@ android {
     // buildToolsVersion "36.0.0" // Generally not needed with AGP 4.0+
     // The Android Gradle plugin selects the build tools automatically.
     // Remove unless you have a very specific reason.
-}
-
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(libs.versions.javaVersion.get().toInt()))
-    }
 }
 
 hilt {

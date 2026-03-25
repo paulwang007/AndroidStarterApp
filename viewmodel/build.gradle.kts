@@ -15,12 +15,6 @@ android {
     }
 }
 
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(libs.versions.javaVersion.get().toInt()))
-    }
-}
-
 dependencies {
     implementation(project(":model")) // Parentheses and double quotes for project dependency
     implementation(libs.hilt.android)

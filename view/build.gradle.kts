@@ -27,12 +27,6 @@ android {
 }
 
 
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(libs.versions.javaVersion.get().toInt()))
-    }
-}
-
 dependencies {
     implementation(project(":viewmodel"))
     implementation(libs.hilt.android)
